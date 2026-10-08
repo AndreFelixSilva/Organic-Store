@@ -20,5 +20,5 @@ Viabilizar a comercialização de produtos, conectar e divulgar artistas indepen
 
 ### 2.3 Objetivos Técnicos 
 
-Implemtar de um e-commerce completo. Que contemple: gerenciamento de produtos, usuários e pedidos; integração de serviços externos pertinentes e necessários a operação; autenticação, autorização e controle de acesso; mecanismos de segurança e proteção de dados; e aplicação de práticas de desenvolvimento, testes, documentação e deployment.
+Implementar de um e-commerce completo. Que contemple: gerenciamento de produtos, usuários e pedidos; integração de serviços externos pertinentes e necessários a operação; autenticação, autorização e controle de acesso; mecanismos de segurança e proteção de dados; e aplicação de práticas de desenvolvimento, testes, documentação e deployment.
 
