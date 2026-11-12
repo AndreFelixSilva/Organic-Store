@@ -26,9 +26,9 @@ Implementar de um e-commerce completo. Que contemple: gerenciamento de produtos,
 
 ### 3.1 Cliente
 
-Descrição: Perfil destinado a pessoas que utilizam a loja para consultar produtos, realizar compras e acompanhar seus pedidos.
+**Descrição:** Perfil destinado a pessoas que utilizam a loja para consultar produtos, realizar compras e acompanhar seus pedidos.
 
-Funcionalidades:
+**Funcionalidades:**
 
 - Criar e gerenciar uma conta individual.
 - Consultar produtos, preços, disponibilidade e condições de compra.
@@ -40,7 +40,7 @@ Funcionalidades:
 - Acompanhar o andamento das solicitações encaminhadas à loja.
 - Disponibilizar a opção de habilitação de um perfil artístico vinculado à conta existente, sem necessidade de criar uma segunda conta.
 
-Observações:
+**Observações:**
 
 - A criação da conta não exige automaticamente CPF (Cadastro de Pessoas Físicas) ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
 - Determinados dados poderão ser solicitados quando necessários para uma operação específica, observadas as exigências aplicáveis.
@@ -52,7 +52,7 @@ Descrição: Perfil destinado à representação de atividades artísticas inter
 
 O perfil artístico poderá representar um artista individual, uma banda, um grupo artístico ou uma marca independente. Uma mesma conta poderá administrar mais de um perfil artístico.
 
-Funcionalidades:
+**Funcionalidades:**
 
 - Criar e gerenciar um ou mais perfis artísticos vinculados à conta existente.
 - Cadastrar e atualizar informações sobre a atividade artística, o trabalho desenvolvido e as áreas de atuação.
@@ -65,7 +65,7 @@ Funcionalidades:
 - Consultar informações pertinentes sobre vendas e repasses, conforme as permissões concedidas e a formalização da parceria.
 - Utilizar cupons de desconto destinados exclusivamente a clientes que possuam perfil artístico habilitado, respeitando as condições de cada promoção.
 
-Observações:
+**Observações:**
 
 - A criação de um perfil artístico não significa que a candidatura foi aprovada, que existe uma parceria formalizada ou que o perfil está autorizado a comercializar produtos.
 - A avaliação será realizada em duas etapas, com responsabilidades distintas para os colaboradores envolvidos.
@@ -75,7 +75,7 @@ Observações:
 
 ### 3.3 Colaborador e Administrador
 
-Descrição: Perfis internos destinados à operação, ao atendimento, à gestão comercial e à administração da Organic Store.
+**Descrição:** Perfis internos destinados à operação, ao atendimento, à gestão comercial e à administração da Organic Store.
 
 As permissões serão atribuídas conforme as responsabilidades de cada função. A simples existência de uma conta de colaborador não concederá acesso irrestrito às informações ou funcionalidades do sistema.
 
@@ -83,9 +83,9 @@ Contas de colaboradores e administradores não poderão realizar compras na loja
 
 #### 3.3.1 Colaborador Geral
 
-Responsabilidade principal: atendimento, manutenção de conteúdo e avaliação inicial de candidaturas artísticas.
+**Responsabilidade principal:** atendimento, manutenção de conteúdo e avaliação inicial de candidaturas artísticas.
 
-Funcionalidades:
+**Funcionalidades:**
 
 - Consultar pedidos e informações operacionais necessárias ao atendimento dos clientes.
 - Consultar manifestações enviadas pelos usuários, incluindo problemas, sugestões e elogios.
@@ -97,7 +97,7 @@ Funcionalidades:
 - Registrar decisões e fornecer feedbacks aos candidatos não aprovados.
 - Solicitar informações complementares pertinentes à avaliação artística, quando necessário.
 
-Limites de acesso:
+**Limites de acesso:**
 
 - Não poderá acessar indiscriminadamente dados pessoais restritos, como CPF, credenciais de acesso ou informações financeiras particulares.
 - Não poderá realizar a aprovação final de uma parceria artística nem habilitar definitivamente um perfil artístico para comercialização.
@@ -105,9 +105,9 @@ Limites de acesso:
     
 #### 3.3.2 Colaborador Financeiro
 
-Responsabilidade principal: análise de informações comerciais e financeiras relacionadas à formalização e à manutenção das parcerias artísticas.
+**Responsabilidade principal:** análise de informações comerciais e financeiras relacionadas à formalização e à manutenção das parcerias artísticas.
 
-Funcionalidades:
+**Funcionalidades:**
 
 - Consultar candidaturas encaminhadas à segunda etapa do processo de seleção.
 - Revisar os dados fornecidos pelos artistas e pelas pessoas físicas ou jurídicas responsáveis pela formalização da parceria.
@@ -119,19 +119,19 @@ Funcionalidades:
 - Consultar registros necessários à conferência de valores, à análise de divergências e ao acompanhamento financeiro das parcerias.
 - Registrar e revisar informações relacionadas aos processos financeiros sob sua responsabilidade.
 
-Limites de acesso:
+**Limites de acesso:**
 
 - O acesso a dados pessoais e financeiros deverá limitar-se às informações necessárias para executar suas responsabilidades.
 - A aprovação financeira e comercial não deverá permitir alterações irrestritas em configurações administrativas ou nas permissões de outros colaboradores.
 - A consulta ou alteração de contratos e registros financeiros deverá respeitar as permissões definidas para a função.
 
-Observação: a aprovação da parceria deverá ser registrada separadamente da aprovação inicial da candidatura. Dessa forma, será possível identificar quem avaliou o trabalho artístico e quem autorizou a formalização comercial.
+**Observação:** a aprovação da parceria deverá ser registrada separadamente da aprovação inicial da candidatura. Dessa forma, será possível identificar quem avaliou o trabalho artístico e quem autorizou a formalização comercial.
 
 #### 3.3.3 Administrador
 
-Responsabilidade principal: administração geral do sistema, gestão de contas, permissões e configurações operacionais.
+**Responsabilidade principal:** administração geral do sistema, gestão de contas, permissões e configurações operacionais.
 
-Funcionalidades:
+**Funcionalidades:**
 
 - Gerenciar contas de clientes, artistas e colaboradores, incluindo criação, edição, suspensão, reativação e exclusão, conforme as regras aplicáveis.
 - Criar e gerenciar contas adicionais de Colaborador Geral e Colaborador Financeiro.
@@ -143,7 +143,7 @@ Funcionalidades:
 - Consultar registros de operações administrativas relevantes.
 - Investigar inconsistências operacionais e financeiras, conforme as permissões administrativas.
 
-Limites e responsabilidades:
+**Limites e responsabilidades:**
 
 - As operações administrativas críticas deverão manter registros que permitam identificar a conta responsável, a ação realizada e o momento da operação.
 - A suspensão ou exclusão de contas não deverá apagar os registros comerciais ou históricos que precisem ser preservados.
@@ -151,4 +151,4 @@ Limites e responsabilidades:
 - O sistema deverá impedir que a remoção ou suspensão de contas deixe a loja sem um administrador ativo.
 - As permissões administrativas deverão ser protegidas contra alterações não autorizadas.
 
-Observação: o Administrador terá as funcionalidades dos colaboradores, além das permissões administrativas adicionais. Isso não significa que todas as informações pessoais ou financeiras devam ser exibidas sem restrições: o acesso deverá ser compatível com a finalidade da operação.
+**Observação:** o Administrador terá as funcionalidades dos colaboradores, além das permissões administrativas adicionais. Isso não significa que todas as informações pessoais ou financeiras devam ser exibidas sem restrições: o acesso deverá ser compatível com a finalidade da operação.
